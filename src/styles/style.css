@@ -1,0 +1,87 @@
+body {
+  background: #2b2b29;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+main {
+  background: rgba(244, 244, 244, 0.5);
+  border-radius: 10px;
+  margin: 25px;
+  padding: 25px;
+  
+  display: grid;
+  gap: 25px;
+}
+
+section {
+  align-items: center;
+  align-content: center;
+  padding: 4px;
+}
+
+section h1 {
+  font-family: 'Do Hyeon', sans-serif;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 58px;
+  text-align: center;
+
+  width: 100%;
+  height: 58px;
+  left: 415px;
+  top: 139px;
+
+  color: #FFFFFF;
+  text-shadow: 1px 1px 2px black;
+}
+
+section img {
+  width: 130px;
+  height: 130px;
+  border-radius: 10px;
+}
+
+section ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+section ul li {
+  transition: transform .3s;
+}
+
+section ul li:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+#section-header {
+  display: block;
+  align-items: center;
+}
+
+button {
+  background: #2b2b29;
+  border: 3px solid #f4f4f4;
+  border-radius: 10px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  color: #FFFFFF;
+  text-shadow: 1px 1px 2px black;
+
+  transition: transform .3s;
+}
+
+button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
